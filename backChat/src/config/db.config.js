@@ -4,7 +4,7 @@ const mysql = require('mysql2/promise');
 const config ={
     user: "root",
     password: "Dajagohe3007",
-    database: "VotesGame"
+    database: "VotesGameDB"
 }
 
 const createConnection = async () => { return await mysql.createConnection(config)};
